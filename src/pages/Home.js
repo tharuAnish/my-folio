@@ -80,13 +80,13 @@ function Home() {
                 </div>
 
                 {/* React Dev section */}
-                <div className="my-20">
+                <div className="my-20 ">
                     <div className="text-white text-center h-52 bg-primary py-10">
                         <h2 className="font-bold text-4xl">
                             Yes, You are right, I am a ReactJS Developer
                         </h2>
                     </div>
-                    <div>
+                    <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
                         <div className="h-96">
                             <lottie-player
                                 src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"
@@ -96,7 +96,7 @@ function Home() {
                                 autoplay
                             ></lottie-player>
                         </div>
-                        <p>
+                        <p className="text-xl my-5 font-semibold md:px-5 px-14 py-10">
                             ReactJS is a simple, feature rich, component based JavaScript UI
                             library. It can be used to develop small applications as well as
                             big, complex applications. ReactJS provides minimal and solid

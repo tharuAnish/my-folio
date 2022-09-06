@@ -29,7 +29,7 @@ function Header() {
 
 
     return (
-        <div className="text-white font-mont fixed inset-0 z-50">
+        <div className="text-white font-mont fixed top-0 left-0 right-0 z-50">
             <div className={`flex bg-theme justify-between items-center p-2 shadow-lg 
             ${showMenu == "" && "md:flex-col"
                 } `}>
