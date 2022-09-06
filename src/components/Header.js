@@ -36,17 +36,7 @@ function Header() {
 
                 <div className="flex justify-between items-center w-full">
                     <h1 className='text-4xl font-semibold'>Folio</h1>
-                    {/* <button
-                        onClick={() => {
-                            if (showMenu == 'md:hidden') {
-                                setShowMenu('')
-                            } else {
-                                setShowMenu('md:hidden')
-                            }
-                        }}
-                        className='lg:hidden xl:hidden 2xl:hidden md-flex '
-                    >MENU
-                    </button> */}
+
                     <FaBars
                         onClick={() => {
                             if (showMenu == "md:hidden") {

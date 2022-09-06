@@ -35,12 +35,12 @@ function Home() {
                 <div className="mt-20">
                     <h2 className="text-4xl text-blue-800 font-bold text-center my-8">Technologies I USE</h2>
                     <div className="grid md:grid-cols-1 grid-cols-3 w-9/12  mx-auto">
-                        <FaReact size={120} color='cyan' className="w-full text-center m-7" />
-                        <FaJsSquare size={120} color='yellow' className="w-full text-center m-7" />
-                        <FaNodeJs size={120} color='green' className="w-full text-center m-7" />
-                        <FaCss3 size={120} color='blue' className="w-full text-center m-7" />
-                        <FaHtml5 size={120} color='orange' className="w-full text-center m-7" />
-                        <FaBootstrap size={120} color='blue' className="w-full text-center m-7" />
+                        <FaReact size={120} color='cyan' className="w-full text-center  mt-12 animate-bounce" />
+                        <FaJsSquare size={120} color='yellow' className="w-full text-center mt-12 animate-bounce" />
+                        <FaNodeJs size={120} color='green' className="w-full text-center mt-12 animate-bounce" />
+                        <FaCss3 size={120} color='blue' className="w-full text-center mt-12 animate-bounce" />
+                        <FaHtml5 size={120} color='orange' className="w-full text-center mt-12 animate-bounce" />
+                        <FaBootstrap size={120} color='blue' className="w-full text-center mt-12 animate-bounce" />
 
                     </div>
                 </div>
