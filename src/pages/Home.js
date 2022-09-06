@@ -79,10 +79,10 @@ function Home() {
                     </div>
                 </div>
 
-                {/* React Dev section */}
+                {/* Highlight section */}
                 <div className="my-20 ">
                     <div className="text-white text-center h-52 bg-primary py-10">
-                        <h2 className="font-bold text-4xl">
+                        <h2 className="font-bold text-3xl">
                             Yes, You are right, I am a ReactJS Developer
                         </h2>
                     </div>
@@ -102,6 +102,50 @@ function Home() {
                             big, complex applications. ReactJS provides minimal and solid
                             feature set to kick-start a web application.
                         </p>
+                    </div>
+                </div>
+
+
+                {/* DevStack section */}
+                <div className="my-20 ">
+                    <div className="text-white text-center h-52 bg-secondary py-10">
+                        <h2 className="font-bold text-3xl">
+                            My Dev Stack
+                        </h2>
+                    </div>
+                    <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
+                        <div className="h-96">
+                            <lottie-player
+                                src="https://assets8.lottiefiles.com/packages/lf20_vybwn7df.json"
+                                background="transparent"
+                                speed="1"
+                                loop
+                                autoplay
+                            ></lottie-player>
+                        </div>
+                        <div className="grid md:grid-cols-1 grid-cols-3 pr-10 pl-10 pb-10">
+                            <div className="md:text-center">
+                                <h3 className="text-xl font-bold">Front End</h3>
+                                <hr />
+                                <p className="font-semibold m-2">HTML/CSS</p>
+                                <p className="font-semibold m-2">Javascript</p>
+                                <p className="font-semibold m-2">ReactJs</p>
+                            </div>
+                            <div className="md:text-center md:mt-5 text-center">
+                                <h3 className="text-xl font-bold">UI/UX</h3>
+                                <hr />
+                                <p className="font-semibold m-2">Material UI</p>
+                                <p className="font-semibold m-2">Tailwind</p>
+                                <p className="font-semibold m-2">Bootstrap</p>
+                            </div>
+                            <div className="md:text-center md:mt-5 text-right">
+                                <h3 className="text-xl font-bold">Backend and DB</h3>
+                                <hr />
+                                <p className="font-semibold m-2">Node JS</p>
+                                <p className="font-semibold m-2">Mongo DB</p>
+                                <p className="font-semibold m-2">NoSQL</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
