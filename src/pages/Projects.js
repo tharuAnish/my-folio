@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import projectData from "../resources/project";
 
 function projects() {
     return (
@@ -26,6 +27,17 @@ function projects() {
                     <h2 className="text-6xl md:text-2xl ">CONSISTANCY</h2>
                 </div>
             </div>
+
+            <div className=" grid mt-20 md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5">
+                {projectData.map((project => {
+                    return <div>
+                        <div className="px-5 py-10 border-2 text-center rounded-tr-3xl rounded-bl-3xl border-gray-400">
+                            <img src={project.image} alt="project svg" className="w-full h-52" />
+                        </div>
+                    </div>
+                }))}
+            </div>
+
         </Layout>
     );
 }

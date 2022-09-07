@@ -1,38 +1,41 @@
 const projectData = [
     {
         title: "Watchflix",
-        image: '.././public./undraw_netflix.svg',
-        description: '',
-        link: 'https://namoflix.netlify.app/',
+        image: './p-watchflix.webp',
+        description: 'Watchflix is a movie app where you can see latest released dmovies and ad them in your list.',
+        link: 'https://namoflix.netlify.app',
     },
     {
-        title: "Watchflix",
-        image: '',
+        title: "Textutil",
+        image: './p-textutil.webp',
         description: '',
-        link: 'https://namoflix.netlify.app/',
+        link: 'https://namostextutil.netlify.app',
     },
     {
-        title: "Watchflix",
-        image: '',
+        title: "NamoBlog",
+        image: './p-namoblog.webp',
         description: '',
-        link: 'https://namoflix.netlify.app/',
+        link: 'https://webprojectatoz.000webhostapp.com/',
     },
     {
-        title: "Watchflix",
-        image: '',
+        title: "RickMorty",
+        image: './p-rickmorty.webp',
         description: '',
-        link: 'https://namoflix.netlify.app/',
+        link: 'https://randmapp.netlify.app',
     },
     {
-        title: "Watchflix",
-        image: '',
+        title: "ExploreNepal",
+        image: './p-explorenepal.webp',
         description: '',
-        link: 'https://namoflix.netlify.app/',
+        link: 'https://explorenepal.netlify.app/',
     },
     {
-        title: "Watchflix",
-        image: '',
+        title: "ReactAccordion",
+        image: './p-reactaccordion.webp',
         description: '',
-        link: 'https://namoflix.netlify.app/',
+        link: 'https://namosreactaccordion.netlify.app',
     },
+
+
 ]
+export default projectData;
