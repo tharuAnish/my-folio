@@ -32,6 +32,7 @@ function Home() {
                             <h1 className="text-6xl md:text-4xl">
                                 Hi , I am <b className="text-yellow-500">ANISH</b>
                             </h1>
+                            {/* <hr /> */}
                             <h1 className="text-3xl md:text-xl">
                                 ReactJS <b className="text-red-500">Developer</b>
                             </h1>
@@ -105,13 +106,10 @@ function Home() {
                     </div>
                 </div>
 
-
                 {/* DevStack section */}
                 <div className="my-20 ">
                     <div className="text-white text-center h-52 bg-secondary py-10">
-                        <h2 className="font-bold text-3xl">
-                            My Dev Stack
-                        </h2>
+                        <h2 className="font-bold text-3xl">My Dev Stack</h2>
                     </div>
                     <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
                         <div className="h-96">
@@ -145,6 +143,39 @@ function Home() {
                                 <p className="font-semibold m-2">Mongo DB</p>
                                 <p className="font-semibold m-2">NoSQL</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Dev info */}
+                <div>
+                    <h2 className="text-3xl text-gray-500 text-center font-bold">
+                        Who is Anish
+                    </h2>
+                    <div className="h-screen relative text-gray-600 ">
+                        <div className="h-full">
+                            <lottie-player
+                                src="https://assets8.lottiefiles.com/packages/lf20_dcatp5cr.json"
+                                background="transparent"
+                                speed="1"
+
+                                loop
+
+                                autoplay
+                            ></lottie-player>
+                        </div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center">
+                            <h3 className="text-2xl font-bold ">Hi, Hello, Namaste ...</h3>
+                            <hr />
+                            <pre className="text-xl md:text-sm my-5 font-mont">
+                                {JSON.stringify({
+                                    name: 'Anish Tharu',
+                                    from: 'Nepal',
+                                    age: 'null',
+                                    gender: 'Male'
+                                }, null, 2)}
+                            </pre>
+
                         </div>
                     </div>
                 </div>
