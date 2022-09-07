@@ -9,7 +9,7 @@ function projects() {
                     <div className="h-3/4">
                         <lottie-player
                             src="https://assets3.lottiefiles.com/packages/lf20_ygiuluqn.json"
-                            background="transparent"
+                            background="transparent "
                             speed="1"
 
                             loop
