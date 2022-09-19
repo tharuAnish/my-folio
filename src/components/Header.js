@@ -16,7 +16,7 @@ function Header() {
             key: '/projects'
         },
         {
-            title: 'About',
+            title: 'AboutMe',
             key: '/about'
         },
         {

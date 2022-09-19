@@ -28,13 +28,14 @@ function About() {
                         </div>
                     </div>
                     <div
-                        className=" mt-32 text-center font-semibold bg-primary mx-20 p-10 text-white rounded-tl-full rounded-br-full
+                        className=" text-center font-semibold bg-primary mx-20 p-12 text-white rounded-tl-full rounded-br-full
                 md:mx-5 md:my-2 md:p-10"
                     >
-                        <h2 className="text-5xl md:text-2xl ">
+                        <h2 className="text-5xl md:text-xl ">
                             "Life begins at the end <br />
                             of your comfort zone"
                         </h2>
+
                     </div>
                 </div>
             </div>

@@ -97,7 +97,7 @@ function Home() {
                                 autoplay
                             ></lottie-player>
                         </div>
-                        <p className="text-xl my-5 font-semibold md:px-5 px-14 py-10">
+                        <p className="text-xl my-5 font-semibold md:px-5 px-14 py-10 text-center">
                             ReactJS is a simple, feature rich, component based JavaScript UI
                             library. It can be used to develop small applications as well as
                             big, complex applications. ReactJS provides minimal and solid
