@@ -16,7 +16,7 @@ function About() {
                                 autoplay
                             ></lottie-player>
                         </div>
-                        <hr className="color-black" />
+                        {/* <hr className="color-black" /> */}
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                                 <path
@@ -29,13 +29,31 @@ function About() {
                     </div>
                     <div
                         className=" text-center font-semibold bg-primary mx-20 p-12 text-white rounded-tl-full rounded-br-full
-                md:mx-5 md:my-2 md:p-10"
+                            md:mx-5 md:my-2 md:p-10 mt-32 mb-10"
                     >
                         <h2 className="text-5xl md:text-xl ">
                             "Life begins at the end <br />
                             of your comfort zone"
                         </h2>
 
+                    </div>
+                </div>
+
+
+                <div className="">
+                    <div className="text-center font-mont">
+                        <h3 className="text-3xl font-extrabold text-theme m-3">About Me</h3>
+                        <p className="text-opacity-70 text-gray-800 m-2">Why Choose Me?</p>
+                        <hr className=" border border-theme w-32 border-2 m-3 mx-auto" />
+                    </div>
+
+                    <div className="flex w-2/3  justify-center my-10 mx-auto shadow-lg shadow-[#C5C7C9]">
+                        <div className="w-2/4 mr-auto">
+                            <img src="./about-anish.webp" alt="My photo" />
+                        </div>
+                        <div className="w-6/12 p-8 text-sm font-mont">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt non ad impedit, blanditiis obcaecati, quas sunt magnam nulla neque fuga consectetur illo fugit est ab vitae repellendus aperiam doloribus itaque nihil natus earum unde? Nulla id iure consequuntur. Quasi.</p>
+                        </div>
                     </div>
                 </div>
             </div>

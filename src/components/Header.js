@@ -35,7 +35,7 @@ function Header() {
                 } `}>
 
                 <div className="flex justify-between items-center w-full">
-                    <h1 className='text-4xl font-semibold'>Folio</h1>
+                    <h1 className='text-4xl font-semibold'>TA</h1>
 
                     <FaBars
                         onClick={() => {
