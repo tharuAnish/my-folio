@@ -35,10 +35,8 @@ function About() {
                             "Life begins at the end <br />
                             of your comfort zone"
                         </h2>
-
                     </div>
                 </div>
-
 
                 <div className="">
                     <div className="text-center font-mont">
@@ -51,8 +49,24 @@ function About() {
                         <div className="w-2/4 mr-auto">
                             <img src="./about-anish.webp" alt="My photo" />
                         </div>
-                        <div className="w-6/12 p-8 text-sm font-mont">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt non ad impedit, blanditiis obcaecati, quas sunt magnam nulla neque fuga consectetur illo fugit est ab vitae repellendus aperiam doloribus itaque nihil natus earum unde? Nulla id iure consequuntur. Quasi.</p>
+                        <div className="w-6/12 p-8 text-sm font-mont text-gray-800">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis incidunt non ad impedit, blanditiis obcaecati, quas
+                                sunt magnam nulla neque fuga consectetur illo fugit est ab vitae
+                                repellendus aperiam doloribus itaque nihil natus earum unde?
+                                Nulla id iure consequuntur. Quasi.
+                            </p>
+                            <div className="my-10">
+                                <p className="text-base text-black-800">Here are a Few Highlights:</p>
+                                <div>
+                                    <ul class="list-disc marker:text-theme my-2 mx-5">
+                                        <li>The first item</li>
+                                        <li>The second item</li>
+                                        <li>The third item</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
