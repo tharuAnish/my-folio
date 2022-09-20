@@ -29,7 +29,7 @@ function About() {
                     </div>
                     <div
                         className=" text-center font-semibold bg-primary mx-20 p-12 text-white rounded-tl-full rounded-br-full
-                            md:mx-5 md:my-2 md:p-10 mt-32 mb-10"
+                            md:mx-5  md:p-10 mt-32 mb-10 md:mt-2"
                     >
                         <h2 className="text-5xl md:text-xl ">
                             "Life begins at the end <br />
@@ -45,11 +45,11 @@ function About() {
                         <hr className=" border border-theme w-32 border-2 m-3 mx-auto" />
                     </div>
 
-                    <div className="flex w-2/3  justify-center my-10 mx-auto shadow-lg shadow-[#C5C7C9]">
-                        <div className="w-2/4 mr-auto">
+                    <div className="flex md:flex-col w-2/3  justify-center my-10 mx-auto shadow-lg shadow-[#C5C7C9]">
+                        <div className="w-2/4 mr-auto md:w-fit">
                             <img src="./about-anish.webp" alt="My photo" />
                         </div>
-                        <div className="w-6/12 p-8 text-sm font-mont text-gray-800">
+                        <div className="w-6/12 p-8 md:w-fit  text-sm font-mont text-gray-800 md:w-11/12 text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Perferendis incidunt non ad impedit, blanditiis obcaecati, quas
@@ -58,7 +58,7 @@ function About() {
                                 Nulla id iure consequuntur. Quasi.
                             </p>
                             <div className="my-10">
-                                <p className="text-base text-black-800">Here are a Few Highlights:</p>
+                                <p className="text-base text-black-800 text-left">Here are a Few Highlights:</p>
                                 <div>
                                     <ul class="list-disc marker:text-theme my-2 mx-5">
                                         <li>The first item</li>
