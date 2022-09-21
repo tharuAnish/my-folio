@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Link } from "react-router-dom";
+import { FaDownload } from 'react-icons/fa'
 import {
     FaReact,
     FaJsSquare,
@@ -17,8 +19,9 @@ function Home() {
                 <div className="h-screen bg-theme">
                     <div
                         className="grid md:grid-cols-1 grid-cols-2 h-screen items-center 
-                    border-4 md:border-0 mx-10 border-white transform rotate-12 md:rotate-0 bg-theme"
+                     mx-10  bg-theme"
                     >
+                        {/* border-4 md:border-0 border-white transform rotate-12 md:rotate-0 */}
                         <div className="h-1/2">
                             <lottie-player
                                 src="https://assets9.lottiefiles.com/packages/lf20_kkflmtur.json"
@@ -28,14 +31,28 @@ function Home() {
                                 autoplay
                             ></lottie-player>
                         </div>
-                        <div className="font-bold text-white md:px-5">
-                            <h1 className="text-6xl md:text-4xl">
-                                Hi , I am <b className="text-yellow-500">ANISH</b>
-                            </h1>
-                            {/* <hr /> */}
-                            <h1 className="text-3xl md:text-xl">
-                                ReactJS <b className="text-red-500">Developer</b>
-                            </h1>
+                        <div>
+                            <div className="font-bold text-white md:px-5 border-l-4 flex-col">
+                                <h1 className="text-6xl md:text-4xl m-2">
+                                    Hi , I am <b className="text-secondary">ANISH</b>
+                                </h1>
+                                <hr className="m-2 w-3/4" />
+                                <h1 className="text-3xl md:text-xl m-2">
+                                    ReactJS <b className="text-red-500">Developer</b>
+                                </h1>
+                            </div>
+                            <div className="flex mt-10">
+                                <Link
+                                    className=" text-white font-bold py-3 m-2 px-10 rounded-full  focus:ring-secondary ring-2 ring-secondary ring-inset  shadow-lg hover:scale-105 ease-in duration-100"
+                                    to="/contact"
+                                >
+                                    Hire Me
+                                </Link>
+                                <button className=" flex  static bg-secondary text-white font-bold py-3 m-2 px-5 rounded-full  shadow-lg hover:scale-105 ease-in duration-100">
+                                    Get Resume
+                                    <FaDownload className="mx-2" />
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,9 +175,7 @@ function Home() {
                                 src="https://assets8.lottiefiles.com/packages/lf20_dcatp5cr.json"
                                 background="transparent"
                                 speed="1"
-
                                 loop
-
                                 autoplay
                             ></lottie-player>
                         </div>
@@ -168,14 +183,17 @@ function Home() {
                             <h3 className="text-2xl font-bold ">Hi, Hello, Namaste ...</h3>
                             <hr />
                             <pre className="text-xl md:text-sm my-5 font-mont">
-                                {JSON.stringify({
-                                    name: 'Anish Tharu',
-                                    from: 'Nepal',
-                                    age: 'null',
-                                    gender: 'Male'
-                                }, null, 2)}
+                                {JSON.stringify(
+                                    {
+                                        name: "Anish Tharu",
+                                        from: "Nepal",
+                                        age: "null",
+                                        gender: "Male",
+                                    },
+                                    null,
+                                    2
+                                )}
                             </pre>
-
                         </div>
                     </div>
                 </div>

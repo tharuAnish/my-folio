@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         theme: '#1D2228',
         primary: '#5F9EA0',
-        secondary: '#FAB162',
+        secondary: '#D27C1F',
         //#2A2A2A #1A2238 #1D2228 #1F2235
 
         // boxShadow: {
