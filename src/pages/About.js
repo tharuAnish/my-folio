@@ -6,7 +6,7 @@ function About() {
         <Layout>
             <div>
                 <div>
-                    <div className="h-screen">
+                    <div className="h-screen md:h-4/5">
                         <div className="h-3/4 bg-theme pt-20 md:mt-5">
                             <lottie-player
                                 src="https://assets9.lottiefiles.com/packages/lf20_ne6kcqfz.json"
@@ -42,14 +42,14 @@ function About() {
                     <div className="text-center font-mont">
                         <h3 className="text-3xl font-extrabold text-theme m-3">About Me</h3>
                         <p className="text-opacity-70 text-gray-800 m-2">Why Choose Me?</p>
-                        <hr className=" border border-theme w-32 border-2 m-3 mx-auto" />
+                        <hr className=" border border-theme w-40 border-2 m-3 mx-auto" />
                     </div>
 
                     <div className="flex md:flex-col w-2/3  justify-center my-10 mx-auto shadow-lg shadow-[#C5C7C9]">
                         <div className="w-2/4 mr-auto md:w-fit">
-                            <img src="./about-anish.webp" alt="My photo" />
+                            <img src="./about-anish.webp" alt="Anish photo" />
                         </div>
-                        <div className="w-6/12 p-8 md:w-fit  text-sm font-mont text-gray-800 md:w-11/12 text-justify">
+                        <div className="w-6/12 p-8 md:w-fit  text-sm font-mont text-gray-800  text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Perferendis incidunt non ad impedit, blanditiis obcaecati, quas
