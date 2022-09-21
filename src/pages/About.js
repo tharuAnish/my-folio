@@ -38,7 +38,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="">
+                <div >
                     <div className="text-center font-mont">
                         <h3 className="text-3xl font-extrabold text-theme m-3">About Me</h3>
                         <p className="text-opacity-70 text-gray-800 m-2">Why Choose Me?</p>
