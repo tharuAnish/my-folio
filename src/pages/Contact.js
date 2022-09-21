@@ -47,32 +47,69 @@ export const Contact = () => {
 
                 <div className="text-center font-mont">
                     <h3 className="text-3xl font-extrabold text-theme m-3">Contact Me</h3>
-                    <p className="text-opacity-70 text-gray-800 m-2">Lets Keep In Touch</p>
+                    <p className="text-opacity-70 text-gray-800 m-2">
+                        Lets Keep In Touch
+                    </p>
                     <hr className=" border border-theme w-40 border-2 m-3 mx-auto" />
                 </div>
 
                 <div
                     className="bg-theme rounded-2xl flex flex-row md:flex-col w-2/3  justify-center mx-auto  text-white
-                                p-5 m-8 md:w-4/5"
+                                p-5 m-8 md:w-4/5 "
                 >
                     <div className="basis-2/5">
                         <p className="font-black text-3xl font-mont text-center ">
                             Get In Touch
                         </p>
                         <div className="flex text-white w-full justify-around mt-4 py-3">
-                            <a href="https://www.linkedin.com/in/tharuanish" target="_blank"><FaLinkedin /></a>
-                            <a href="https://github.com/tharuAnish" target="_blank"><FaGithub /></a>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=namoanishtharu@gmail.com" target="_blank"><FaMailBulk /></a>
-                            <a href="https://twitter.com/anish_namo" target="_blank"><FaTwitter /></a>
-                            <a href="https://www.instagram.com/namo_anish" target="_blank"><FaInstagram /></a>
-                            <a href="https://www.facebook.com/anish.nammochhiyatharu" target="_blank"><FaFacebook /></a>
-
-
+                            <a
+                                className="hover:text-[#0077b5] hover:scale-125 ease-in duration-100"
+                                href="https://www.linkedin.com/in/tharuanish"
+                                target="_blank"
+                            >
+                                <FaLinkedin />
+                            </a>
+                            <a
+                                className="hover:text-white hover:scale-125 ease-in duration-100 "
+                                href="https://github.com/tharuAnish"
+                                target="_blank"
+                            >
+                                <FaGithub />
+                            </a>
+                            <a
+                                className="hover:text-[#EA4335] hover:scale-125 ease-in duration-100 "
+                                href="https://mail.google.com/mail/?view=cm&fs=1&to=namoanishtharu@gmail.com"
+                                target="_blank"
+                            >
+                                <FaMailBulk />
+                            </a>
+                            <a
+                                className="hover:text-[#1DA1F2] hover:scale-125 ease-in duration-100 "
+                                href="https://twitter.com/anish_namo"
+                                target="_blank"
+                            >
+                                <FaTwitter />
+                            </a>
+                            <a
+                                className="hover:text-[#e1306c] hover:scale-125 ease-in duration-100 "
+                                href="https://www.instagram.com/namo_anish"
+                                target="_blank"
+                            >
+                                <FaInstagram />
+                            </a>
+                            <a
+                                className="hover:text-[#4267B2] hover:scale-125 ease-in duration-100 "
+                                href="https://www.facebook.com/anish.nammochhiyatharu"
+                                target="_blank"
+                            >
+                                <FaFacebook />
+                            </a>
                         </div>
                         <img
                             className="w-2/5 mx-auto my-10"
                             src="./undraw_mailbox.svg"
-                            alt="mailbox" />
+                            alt="mailbox"
+                        />
                     </div>
 
                     <div className="basis-3/5 bg-[#252a30] rounded-r-xl md:rounded-xl  text-black">
@@ -100,11 +137,13 @@ export const Contact = () => {
                                 required
                             />
                             <div className="flex text-gray-50 ">
-                                <input
-                                    className="hover:bg-blue-700  static bg-[#11296a] text-white font-bold py-2 pr-14 m-2 px-10  rounded-full focus:ring focus:ring-blue-500 shadow-lg "
-                                    type="submit"
-                                    value="Send"
-                                />
+                                <div>
+                                    <input
+                                        className="hover:bg-blue-700  static bg-[#11296a] text-white font-bold py-2 pr-14 m-2 px-10  rounded-full focus:ring focus:ring-blue-500 shadow-lg "
+                                        type="submit"
+                                        value="Send"
+                                    />
+                                </div>
                                 <i className="absolute pl-7 ml-16 mt-5">
                                     <FaRegPaperPlane />
                                 </i>

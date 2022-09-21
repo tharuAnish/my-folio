@@ -47,7 +47,7 @@ function projects() {
                                         {project.title}
                                     </h3>
                                     <button className="border-2 rounded border white py-2 px-5 hover:bg-green-500 mt-5 text-white" onClick={() => { project.link }}>
-                                        DEMO
+                                        <a href={project.link} target="_blank">DEMO</a>
                                     </button>
                                 </div>
                             </div>

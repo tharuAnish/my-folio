@@ -51,7 +51,7 @@ function Header() {
 
                 <div className='flex md:hidden '>
                     {menuItems.map((item) => {
-                        return <li className={`list-none mx-5 p-1 ${item.key == pathName && 'bg-white text-black rounded-md'} `}>
+                        return <li className={`list-none mx-5 p-1 hover:text-secondary ease-in duration-100 ${item.key == pathName && 'bg-white text-black rounded-md'} `}>
                             <Link to={`${item.key}`}>{item.title}</Link>
                         </li>
                     })}
