@@ -8,8 +8,12 @@ module.exports = {
       colors: {
         theme: '#1D2228',
         primary: '#5F9EA0',
-        secondary: '#FAB162'
+        secondary: '#FAB162',
         //#2A2A2A #1A2238 #1D2228 #1F2235
+
+        // boxShadow: {
+        //   "custom": '6px 9px 17px 3px rgb(0 0 0 / 30%)'
+        // }
       },
       fontFamily: {
         mont: ['Montserrat', 'sans-serif']

@@ -10,12 +10,12 @@ function Footer() {
                     <div className="h-1 border-2 border-white border-dotted"></div>
 
                     <div className="flex text-white w-full justify-between py-3">
-                        <FaLinkedin />
-                        <FaGithub />
-                        <FaMailBulk />
-                        <FaTwitter />
-                        <FaInstagram />
-                        <FaFacebook />
+                        <a href="https://www.linkedin.com/in/tharuanish" target="_blank"><FaLinkedin /></a>
+                        <a href="https://github.com/tharuAnish" target="_blank"><FaGithub /></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=namoanishtharu@gmail.com" target="_blank"><FaMailBulk /></a>
+                        <a href="https://twitter.com/anish_namo" target="_blank"><FaTwitter /></a>
+                        <a href="https://www.instagram.com/namo_anish" target="_blank"><FaInstagram /></a>
+                        <a href="https://www.facebook.com/anish.nammochhiyatharu" target="_blank"><FaFacebook /></a>
                     </div>
 
                     <div className="h-1 border-2 border-gray-50 border-dotted"></div>

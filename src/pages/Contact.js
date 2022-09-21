@@ -52,7 +52,7 @@ export const Contact = () => {
                 </div>
 
                 <div
-                    className="bg-theme rounded-2xl flex flex-row md:flex-col w-2/3  justify-center mx-auto shadow-lg shadow-[#C5C7C9] text-white
+                    className="bg-theme rounded-2xl flex flex-row md:flex-col w-2/3  justify-center mx-auto  text-white
                                 p-5 m-8 md:w-4/5"
                 >
                     <div className="basis-2/5">
@@ -60,12 +60,14 @@ export const Contact = () => {
                             Get In Touch
                         </p>
                         <div className="flex text-white w-full justify-around mt-4 py-3">
-                            <FaLinkedin />
-                            <FaGithub />
-                            <FaMailBulk />
-                            <FaTwitter />
-                            <FaInstagram />
-                            <FaFacebook />
+                            <a href="https://www.linkedin.com/in/tharuanish" target="_blank"><FaLinkedin /></a>
+                            <a href="https://github.com/tharuAnish" target="_blank"><FaGithub /></a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=namoanishtharu@gmail.com" target="_blank"><FaMailBulk /></a>
+                            <a href="https://twitter.com/anish_namo" target="_blank"><FaTwitter /></a>
+                            <a href="https://www.instagram.com/namo_anish" target="_blank"><FaInstagram /></a>
+                            <a href="https://www.facebook.com/anish.nammochhiyatharu" target="_blank"><FaFacebook /></a>
+
+
                         </div>
                         <img
                             className="w-2/5 mx-auto my-10"
@@ -97,13 +99,13 @@ export const Contact = () => {
                                 className="block form-input w-full rounded-md text-theme px-3 py-2 m-2 my-5"
                                 required
                             />
-                            <div className="flex text-white">
+                            <div className="flex text-gray-50 ">
                                 <input
-                                    className="static bg-blue-700 text-white font-bold py-2 pr-10 m-2 px-4  rounded-full focus:ring focus:ring-blue-300 hover:bg-blue-500"
+                                    className="hover:bg-blue-700  static bg-[#11296a] text-white font-bold py-2 pr-14 m-2 px-10  rounded-full focus:ring focus:ring-blue-500 shadow-lg "
                                     type="submit"
                                     value="Send"
                                 />
-                                <i className="absolute pl-2 ml-16 mt-5">
+                                <i className="absolute pl-7 ml-16 mt-5">
                                     <FaRegPaperPlane />
                                 </i>
                             </div>
