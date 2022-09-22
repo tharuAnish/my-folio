@@ -9,10 +9,12 @@ function About() {
                     <div className="h-screen md:h-4/5">
 
                         <div className="h-3/4 bg-theme pt-20 md:mt-5">
-                            <h2 className="text-3xl text-gray-500 text-center font-bold">
+                            <h2 className="text-3xl text-gray-500 text-center font-bold ">
                                 Who is Anish
                             </h2>
-                            <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
+                            <hr className=" border border-gray-500 w-40 border-2 m-3 mx-auto" />
+                            <img className="mx-auto h-full z-20 " src="./blob.svg" alt="blob" />
+                            <div className="absolute mx-auto inset-0 flex flex-col items-center justify-center text-gray-500 w-2/6  rounded-[12px]">
                                 <h3 className="text-2xl font-bold ">Hi, Hello, Namaste ...</h3>
                                 <hr />
                                 <pre className="text-xl md:text-sm my-5 font-mont">
@@ -45,7 +47,7 @@ function About() {
                         className=" text-center font-semibold bg-primary mx-20 p-12 text-white rounded-tl-full rounded-br-full
                             md:mx-5  md:p-10 mt-32 mb-10 md:mt-2"
                     >
-                        <h2 className="text-5xl md:text-xl ">
+                        <h2 className="text-4xl md:text-xl ">
                             "Life begins at the end <br />
                             of your comfort zone"
                         </h2>

@@ -7,31 +7,32 @@ function projects() {
         <Layout >
             <div className="mt-20 md:mt-5 ">
                 <div className="h-screen">
-                    <div className="h-3/4 ">
-                        <lottie-player
-                            src="https://assets3.lottiefiles.com/packages/lf20_ygiuluqn.json"
-                            background="transparent "
-                            speed="1"
-                            loop
-                            autoplay
-                        ></lottie-player>
+                    <div className="h-2/3 ">
+                        <img className="h-5/6 mx-auto" src="./project.svg" alt="project svg" />
                     </div>
                     <p className="text-xl font-semibold text-center mx-5">
-                        Good ideas are not adopted automatically. They must be driven into
+                        Good ideas are not adopted automatically.<br />  They must be driven into
                         practice with courageous patience
                     </p>
                     <h3 className="text-4xl font-bold text-center mt-5">Because</h3>
                 </div>
                 <div
-                    className=" text-center font-semibold bg-primary mx-20 p-12 text-white rounded-tl-full rounded-br-full
+                    className="-mt-10 text-center font-semibold bg-primary mx-20 p-10 text-white rounded-tl-full rounded-br-full
                 md:mx-5 md:my-2 md:p-10"
                 >
-                    <h2 className="text-5xl md:text-2xl ">THE GAME IS ... <br />CONSISTANCY</h2>
+                    <h2 className="text-4xl md:text-2xl ">THE GAME IS ... <br />CONSISTANCY</h2>
 
                 </div>
             </div>
 
-            <div className=" grid mt-20 md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5 mb-10">
+
+            <div className="text-center font-mont mt-10">
+                <h3 className="text-3xl font-extrabold text-theme m-3">My Projects</h3>
+                <p className="text-opacity-70 text-gray-800 m-2">Some of the projects done by me</p>
+                <hr className=" border border-theme w-40 border-2 m-3 mx-auto" />
+            </div>
+
+            <div className=" grid mt-10 md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5 mb-10">
                 {projectData.map((project) => {
                     return (
                         <div>

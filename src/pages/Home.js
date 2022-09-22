@@ -46,7 +46,7 @@ function Home() {
                         </div>
 
                         <div className="mx-auto ">
-                            <div >
+                            <div>
                                 <div className="font-bold text-white md:px-2 md:mb-5 border-l-4 flex-col ">
                                     <h1 className="text-6xl md:text-4xl m-2">
                                         Hi , I am <b className="text-secondary">ANISH</b>
@@ -131,13 +131,6 @@ function Home() {
                     </div>
                     <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white">
                         <div className="h-80">
-                            {/* <lottie-player
-                                src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"
-                                background="transparent"
-                                speed="1"
-                                loop
-                                autoplay
-                            ></lottie-player> */}
                             <img
                                 className="h-full mx-auto"
                                 src="./react_dev.svg"
@@ -193,10 +186,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
-
             </div>
-        </Layout >
+        </Layout>
     );
 }
 
