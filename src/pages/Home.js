@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
-import { FaDownload } from 'react-icons/fa'
+import { FaDownload } from "react-icons/fa";
 import {
     FaReact,
     FaJsSquare,
@@ -22,16 +22,8 @@ function Home() {
                      mx-10  bg-theme"
                     >
                         {/* border-4 md:border-0 border-white transform rotate-12 md:rotate-0 */}
-                        <div className="h-1/2">
-                            <lottie-player
-                                src="https://assets9.lottiefiles.com/packages/lf20_kkflmtur.json"
-                                background="transparent"
-                                speed="1"
-                                loop
-                                autoplay
-                            ></lottie-player>
-                        </div>
-                        <div>
+
+                        <div className="mx-auto">
                             <div className="font-bold text-white md:px-5 border-l-4 flex-col">
                                 <h1 className="text-6xl md:text-4xl m-2">
                                     Hi , I am <b className="text-secondary">ANISH</b>
@@ -41,6 +33,7 @@ function Home() {
                                     ReactJS <b className="text-red-500">Developer</b>
                                 </h1>
                             </div>
+
                             <div className="flex mt-10">
                                 <Link
                                     className=" text-white font-bold py-3 m-2 px-10 rounded-full  focus:ring-secondary ring-2 ring-secondary ring-inset  shadow-lg hover:scale-105 ease-in duration-100"
@@ -48,11 +41,23 @@ function Home() {
                                 >
                                     Hire Me
                                 </Link>
-                                <button className=" flex  static bg-secondary text-white font-bold py-3 m-2 px-5 rounded-full  shadow-lg hover:scale-105 ease-in duration-100">
+                                <a className=" flex  static bg-secondary text-white font-bold py-3 m-2 px-5 rounded-full  shadow-lg hover:scale-105 ease-in duration-100"
+                                    href="https://drive.google.com/file/d/1ZarF1tZiUdr3MSME3sf5sTfK55_2UV-t/view?usp=sharing"
+                                    target="_blank"
+                                >
                                     Get Resume
                                     <FaDownload className="mx-2" />
-                                </button>
+                                </a>
                             </div>
+                        </div>
+                        <div className="h-1/2">
+                            <lottie-player
+                                src="https://assets9.lottiefiles.com/packages/lf20_kkflmtur.json"
+                                background="transparent"
+                                speed="1"
+                                loop
+                                autoplay
+                            ></lottie-player>
                         </div>
                     </div>
                 </div>
