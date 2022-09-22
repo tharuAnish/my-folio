@@ -9,6 +9,7 @@ import {
     FaHtml5,
     FaNodeJs,
     FaBootstrap,
+    FaLinkedin,
 } from "react-icons/fa";
 
 function Home() {
@@ -23,48 +24,67 @@ function Home() {
                     >
                         {/* border-4 md:border-0 border-white transform rotate-12 md:rotate-0 */}
 
-                        <div className="mx-auto">
-                            <div className="font-bold text-white md:px-5 border-l-4 flex-col">
-                                <h1 className="text-6xl md:text-4xl m-2">
-                                    Hi , I am <b className="text-secondary">ANISH</b>
-                                </h1>
-                                <hr className="m-2 w-3/4" />
-                                <h1 className="text-3xl md:text-xl m-2">
-                                    ReactJS <b className="text-red-500">Developer</b>
-                                </h1>
+                        <div className="">
+                            <div className="flex  text-white ">
+                                <p className="rotate-90 absolute origin-top-left">FOLLOW ME</p>
+                                <div className="">
+                                    <a
+                                        className="hover:text-[#0077b5] hover:scale-125 ease-in duration-100"
+                                        href="https://www.linkedin.com/in/tharuanish"
+                                        target="_blank"
+                                    >
+                                        <FaLinkedin />
+                                    </a>
+                                </div>
                             </div>
 
-                            <div className="flex mt-10">
-                                <Link
-                                    className=" text-white font-bold py-3 m-2 px-10 rounded-full  focus:ring-secondary ring-2 ring-secondary ring-inset  shadow-lg hover:scale-105 ease-in duration-100"
-                                    to="/contact"
-                                >
-                                    Hire Me
-                                </Link>
-                                <a className=" flex  static bg-secondary text-white font-bold py-3 m-2 px-5 rounded-full  shadow-lg hover:scale-105 ease-in duration-100"
-                                    href="https://drive.google.com/file/d/1ZarF1tZiUdr3MSME3sf5sTfK55_2UV-t/view?usp=sharing"
-                                    target="_blank"
-                                >
-                                    Get Resume
-                                    <FaDownload className="mx-2" />
-                                </a>
-                            </div>
+                            <img
+                                className="w-3/4 mx-auto"
+                                src="./Developer.svg"
+                                alt="dev svg"
+                            />
                         </div>
-                        <div className="h-1/2">
-                            <lottie-player
-                                src="https://assets9.lottiefiles.com/packages/lf20_kkflmtur.json"
-                                background="transparent"
-                                speed="1"
-                                loop
-                                autoplay
-                            ></lottie-player>
+
+                        <div className="mx-auto ">
+                            <div >
+                                <div className="font-bold text-white md:px-2 md:mb-5 border-l-4 flex-col ">
+                                    <h1 className="text-6xl md:text-4xl m-2">
+                                        Hi , I am <b className="text-secondary">ANISH</b>
+                                    </h1>
+                                    <hr className="m-2 w-3/4" />
+                                    <h1 className="text-3xl md:text-xl m-2">
+                                        ReactJS <b className="text-red-500">Developer</b>
+                                    </h1>
+                                </div>
+                                <p className="text-opacity-70 text-gray-200 m-4 text-lg md:mb-5">
+                                    Welcome to my portfolio
+                                </p>
+                                <div className="flex mt-5 ">
+                                    <Link
+                                        className=" text-white font-bold py-3 m-2 px-10 md:px-5 rounded-full shadow-lg hover:scale-105 ease-in-out duration-100 
+                                     bg-secondary text-white"
+                                        to="/contact"
+                                    >
+                                        Hire Me
+                                    </Link>
+                                    <a
+                                        className=" flex  static  font-bold py-3 m-2 px-5 rounded-full  shadow-lg hover:scale-105 ease-in-out duration-100 
+                                                text-white focus:ring-secondary ring-2 ring-secondary ring-inset "
+                                        href="https://drive.google.com/file/d/1ZarF1tZiUdr3MSME3sf5sTfK55_2UV-t/view?usp=sharing"
+                                        target="_blank"
+                                    >
+                                        Get Resume
+                                        <FaDownload className="mx-2" />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 {/* technology secction */}
                 {/* <div className="flex justify-center"> */}
-                <div className="mt-20">
+                <div className="mt-20 ">
                     <h2 className="text-4xl text-blue-800 font-bold text-center my-8">
                         Technologies I USE
                     </h2>
@@ -104,22 +124,27 @@ function Home() {
 
                 {/* Highlight section */}
                 <div className="my-20 ">
-                    <div className="text-white text-center h-52 bg-primary py-10">
+                    <div className="text-white text-center h-40 md:h-52 bg-primary py-10">
                         <h2 className="font-bold text-3xl">
                             Yes, You are right, I am a ReactJS Developer
                         </h2>
                     </div>
-                    <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
-                        <div className="h-96">
-                            <lottie-player
+                    <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white">
+                        <div className="h-80">
+                            {/* <lottie-player
                                 src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"
                                 background="transparent"
                                 speed="1"
                                 loop
                                 autoplay
-                            ></lottie-player>
+                            ></lottie-player> */}
+                            <img
+                                className="h-full mx-auto"
+                                src="./react_dev.svg"
+                                alt="react dev"
+                            />
                         </div>
-                        <p className="text-xl my-5 font-semibold md:px-5 px-14 py-10 text-center">
+                        <p className="text-l mb-5 text-semibold  md:px-5 px-14 pb-10 text-center">
                             ReactJS is a simple, feature rich, component based JavaScript UI
                             library. It can be used to develop small applications as well as
                             big, complex applications. ReactJS provides minimal and solid
@@ -130,11 +155,11 @@ function Home() {
 
                 {/* DevStack section */}
                 <div className="my-20 ">
-                    <div className="text-white text-center h-52 bg-secondary py-10">
+                    <div className="text-white text-center h-40 bg-secondary py-10">
                         <h2 className="font-bold text-3xl">My Dev Stack</h2>
                     </div>
-                    <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
-                        <div className="h-96">
+                    <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white">
+                        <div className="h-80">
                             <lottie-player
                                 src="https://assets8.lottiefiles.com/packages/lf20_vybwn7df.json"
                                 background="transparent"
@@ -203,7 +228,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </Layout>
+        </Layout >
     );
 }
 
