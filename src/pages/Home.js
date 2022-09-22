@@ -194,39 +194,7 @@ function Home() {
                     </div>
                 </div>
 
-                {/* Dev info */}
-                <div>
-                    <h2 className="text-3xl text-gray-500 text-center font-bold">
-                        Who is Anish
-                    </h2>
-                    <div className="h-screen relative text-gray-600 ">
-                        <div className="h-full">
-                            <lottie-player
-                                src="https://assets8.lottiefiles.com/packages/lf20_dcatp5cr.json"
-                                background="transparent"
-                                speed="1"
-                                loop
-                                autoplay
-                            ></lottie-player>
-                        </div>
-                        <div className="absolute inset-0 flex flex-col items-center justify-center">
-                            <h3 className="text-2xl font-bold ">Hi, Hello, Namaste ...</h3>
-                            <hr />
-                            <pre className="text-xl md:text-sm my-5 font-mont">
-                                {JSON.stringify(
-                                    {
-                                        name: "Anish Tharu",
-                                        from: "Nepal",
-                                        age: "null",
-                                        gender: "Male",
-                                    },
-                                    null,
-                                    2
-                                )}
-                            </pre>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </Layout >
     );

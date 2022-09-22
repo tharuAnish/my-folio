@@ -7,14 +7,28 @@ function About() {
             <div>
                 <div>
                     <div className="h-screen md:h-4/5">
+
                         <div className="h-3/4 bg-theme pt-20 md:mt-5">
-                            <lottie-player
-                                src="https://assets9.lottiefiles.com/packages/lf20_ne6kcqfz.json"
-                                background="transparent "
-                                speed="1"
-                                loop
-                                autoplay
-                            ></lottie-player>
+                            <h2 className="text-3xl text-gray-500 text-center font-bold">
+                                Who is Anish
+                            </h2>
+                            <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-500">
+                                <h3 className="text-2xl font-bold ">Hi, Hello, Namaste ...</h3>
+                                <hr />
+                                <pre className="text-xl md:text-sm my-5 font-mont">
+                                    {JSON.stringify(
+                                        {
+                                            name: "Anish Tharu",
+                                            from: "Nepal",
+                                            age: "null",
+                                            gender: "Male",
+                                        },
+                                        null,
+                                        2
+                                    )}
+                                </pre>
+                            </div>
+
                         </div>
                         {/* <hr className="color-black" /> */}
                         <div>
