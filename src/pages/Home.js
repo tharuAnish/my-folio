@@ -88,7 +88,7 @@ function Home() {
                     <h2 className="text-4xl text-blue-800 font-bold text-center my-8">
                         Technologies I USE
                     </h2>
-                    <div className="grid md:grid-cols-1 grid-cols-3 w-9/12  mx-auto">
+                    <div className="grid md:grid-cols-2 grid-cols-3 w-9/12  mx-auto">
                         <FaReact
                             size={120}
                             color="cyan"
