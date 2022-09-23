@@ -130,7 +130,7 @@ function Home() {
                         </h2>
                     </div>
                     <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white">
-                        <div className="h-80">
+                        <div className="h-96">
                             <img
                                 className="h-full mx-auto"
                                 src="./react_dev.svg"

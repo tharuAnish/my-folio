@@ -63,7 +63,8 @@ function Footer() {
 
                     <div className="h-1 border-2 border-gray-50 border-dotted"></div>
 
-                    <p className="text-gray-50 mt-5">Anish Tharu</p>
+                    <p className="text-gray-50 mt-5 mb-2">Anish Tharu</p>
+                    <p className="text-gray-50">Copyright &copy; 2022 - All rights reserved</p>
                 </div>
             </div>
         </div>
