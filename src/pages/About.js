@@ -6,27 +6,28 @@ function About() {
     <Layout>
       <div>
         <div>
-          <div className="h-screen md:h-4/5">
-            <div className="h-3/4 bg-theme pt-20 md:mt-5">
-              <h2 className="text-3xl text-gray-500 text-center font-bold ">
-                Who is Anish
-              </h2>
+          <div className="h-screen   mt-10 md:mt-20">
+            <div className="h-3/4 text-theme  pt-20 md:mt-5 w-4/5  mx-auto my-auto mb-auto">
+              <h2 className="text-3xl  text-center font-bold ">Who is Anish</h2>
               <hr className=" border border-gray-500 w-40 border-2 m-3 mx-auto" />
               <img
-                className="mx-auto h-full z-20 "
-                src="./blob.svg"
+                className="mx-auto h-5/6 md:h-2/3  relative "
+                src="./brush_stroke_paint.webp"
                 alt="blob"
               />
-              <div className="absolute mx-auto inset-0 flex flex-col items-center justify-center text-gray-500 w-2/6  rounded-[12px]">
-                <h3 className="text-2xl font-bold ">Hi, Hello, Namaste ...</h3>
+              <div className=" absolute mx-auto inset-0 flex flex-col items-center justify-center  w-2/6  rounded-[12px] mt-16 md:-mt-10">
+                <h3 className="text-2xl text-center font-bold ">
+                  Hi, Hello, Namaste ...
+                </h3>
                 <hr />
                 <pre className="text-xl md:text-sm my-5 font-mont">
                   {JSON.stringify(
                     {
                       name: "Anish Tharu",
-                      from: "Nepal",
-                      age: "null",
                       gender: "Male",
+                      from: "Nepal",
+                      planet: "Earth",
+                      species: "Human Being",
                     },
                     null,
                     2
@@ -35,19 +36,10 @@ function About() {
               </div>
             </div>
             {/* <hr className="color-black" /> */}
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                  fill="#1D2228"
-                  fill-opacity="1"
-                  d="M0,160L48,149.3C96,139,192,117,288,138.7C384,160,480,224,576,229.3C672,235,768,181,864,154.7C960,128,1056,128,1152,154.7C1248,181,1344,235,1392,261.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-                ></path>
-              </svg>
-            </div>
           </div>
           <div
             className=" text-center font-semibold bg-primary mx-20 p-12 text-white rounded-tl-full rounded-br-full
-                            md:mx-5  md:p-10 mt-32 mb-10 md:mt-2"
+                            md:mx-5  md:p-10  mb-10 md:-mt-72 z-20"
           >
             <h2 className="text-4xl md:text-xl ">
               "Life begins at the end <br />
