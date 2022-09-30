@@ -27,7 +27,7 @@ function About() {
                       gender: "Male",
                       from: "Nepal",
                       planet: "Earth",
-                      species: "Human Being",
+                      species: "Homo sapiens",
                     },
                     null,
                     2
