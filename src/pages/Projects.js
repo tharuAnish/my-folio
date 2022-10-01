@@ -54,16 +54,20 @@ function projects() {
                   <h3 className='text-3xl font-semibold text-white'>
                     {project.title}
                   </h3>
-                  <button
-                    className='border-2 rounded border white py-2 px-5 hover:bg-green-500 mt-5 text-white'
+                  {/* <button
+                    className=''
                     onClick={() => {
                       project.link
                     }}
+                  > */}
+                  <a
+                    className='border-2 rounded border white py-2 px-5 hover:bg-green-500 mt-5 text-white'
+                    href={project.link}
+                    target='_blank'
                   >
-                    <a href={project.link} target='_blank'>
-                      DEMO
-                    </a>
-                  </button>
+                    DEMO
+                  </a>
+                  {/* </button> */}
                 </div>
               </div>
             </div>
