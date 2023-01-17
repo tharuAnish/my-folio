@@ -72,7 +72,7 @@ function Home() {
                   <a
                     className=" flex  static  font-bold py-3 m-2 px-5 rounded-full md:px-3 md:text-sm shadow-lg hover:scale-105 ease-in-out duration-100 
                                                 text-white focus:ring-secondary ring-2 ring-secondary ring-inset "
-                    href="https://drive.google.com/file/d/1ZarF1tZiUdr3MSME3sf5sTfK55_2UV-t/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1QIVI-NxvUXMx4H0aP8MTSpGmBq5zCnhC/view?usp=sharing"
                     target="_blank"
                   >
                     Get Resume

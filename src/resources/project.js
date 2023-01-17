@@ -10,7 +10,7 @@ const projectData = [
     title: "Recallit",
     image: "./p-recallit.webp",
     description:
-      "This is a memory game in which you flip cards, memorise them, and then flip the matching card and see the number of moves.",
+      "This is a memory game in which you flip cards, memorize them, and then flip the matching card and see the number of moves.",
     link: "https://recallit.netlify.app",
   },
   {
@@ -23,8 +23,7 @@ const projectData = [
   {
     title: "AirBnB",
     image: "./p-airbnb.webp",
-    description:
-      "Watchflix is a movie app where you can see latest released dmovies and ad them in your list.",
+    description: "",
     link: "https://namosbnb.netlify.app",
   },
   {
