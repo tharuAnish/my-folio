@@ -37,7 +37,15 @@ function Header() {
             ${showMenu == "" && "md:flex-col"} `}
       >
         <div className="flex justify-between items-center w-full">
-          <h1 className="text-4xl font-semibold">TA</h1>
+          <div>
+            <a href="/">
+              <img
+                src="./TA-logo.png"
+                alt="logo"
+                className="w-12 ml-3 opacity-90"
+              />
+            </a>
+          </div>
 
           <FaBars
             onClick={() => {
@@ -47,7 +55,7 @@ function Header() {
                 setShowMenu("md:hidden")
               }
             }}
-            className="lg:hidden xl:hidden 2xl:hidden md:flex cursor-pointer"
+            className="lg:hidden xl:hidden 2xl:hidden md:flex cursor-pointer mr-4 text-3xl"
           />
         </div>
 
@@ -55,6 +63,7 @@ function Header() {
           {menuItems.map((item) => {
             return (
               <li
+                key={item.id}
                 className={`list-none mx-5 p-1 hover:text-secondary ease-in duration-100 ${
                   item.key == pathName &&
                   "bg-white  text-black rounded-full px-3 ring-white border-2 border-primary ring-inset-3  ring-2"
@@ -72,6 +81,7 @@ function Header() {
           {menuItems.map((item) => {
             return (
               <li
+                key={item.id}
                 className={`list-none  py-1 ${
                   item.key == pathName && "bg-white text-black rounded-md px-5"
                 } `}

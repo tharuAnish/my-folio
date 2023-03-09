@@ -47,10 +47,10 @@ function Home() {
               />
             </div>
 
-            <div className="mx-auto ">
+            <div className="mx-auto md:-mt-14">
               <div>
                 <div className="font-bold text-white md:px-2 md:mb-5 border-l-4 flex-col ">
-                  <h1 className="text-6xl md:text-4xl m-2">
+                  <h1 className="text-6xl md:text-3xl m-2">
                     Hi , I am <b className="text-secondary">ANISH</b>
                   </h1>
                   <hr className="m-2 w-3/4" />
@@ -149,11 +149,11 @@ function Home() {
               Yes, You are right, I am a ReactJS Developer
             </h2>
           </div>
-          <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white ">
+          <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white duration-500">
             <div className="h-96">
               <img
                 className="h-full mx-auto"
-                src="./react_dev.svg"
+                src="./react_dev.png"
                 alt="react dev"
               />
             </div>
@@ -171,7 +171,7 @@ function Home() {
           <div className="text-white text-center h-40 bg-secondary py-10">
             <h2 className="font-bold text-3xl">My Dev Stack</h2>
           </div>
-          <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white ">
+          <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white duration-500">
             <div className="h-80">
               <lottie-player
                 src="https://assets8.lottiefiles.com/packages/lf20_vybwn7df.json"

@@ -55,7 +55,7 @@ function About() {
             <hr className=" border border-theme w-40 border-2 m-3 mx-auto" />
           </div>
 
-          <div className="flex md:flex-col w-2/3  md:w-10/12 justify-center my-10 mx-auto shadow-lg shadow-[#C5C7C9]">
+          <div className="flex md:flex-col w-2/3  md:w-11/12 justify-center my-10 mx-auto shadow-lg shadow-[#C5C7C9]">
             <div className="w-2/4 mr-auto md:w-fit">
               <img src="./about-anish.webp" alt="Anish photo" />
             </div>

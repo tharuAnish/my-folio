@@ -42,7 +42,7 @@ function projects() {
       <div className=" grid mt-10 md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5 mb-10">
         {projectData.map((project, i) => {
           return (
-            <div>
+            <div key={i}>
               <div className="relative px-5 py-10 border-2 text-center rounded-tr-3xl rounded-bl-3xl border-gray-400  opacity-80">
                 <img
                   src={project.image}
@@ -50,7 +50,7 @@ function projects() {
                   className="w-full h-48 "
                 />
 
-                <div className="absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 rounded-tr-3xl rounded-bl-3xl">
+                <div className="absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 rounded-tr-3xl rounded-bl-3xl duration-300">
                   <h3 className="text-3xl font-semibold text-white">
                     {project.title}
                   </h3>

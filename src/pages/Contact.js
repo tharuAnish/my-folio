@@ -55,7 +55,7 @@ export const Contact = () => {
 
         <div
           className="bg-theme rounded-2xl flex flex-row md:flex-col w-2/3 md:w-11/12 justify-center mx-auto  text-white
-                                p-5 m-8 md:w-4/5 "
+                                p-5 m-8 md:w-11/12 "
         >
           <div className="basis-2/5">
             <p className="font-black text-3xl font-mont text-center ">
