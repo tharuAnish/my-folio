@@ -152,7 +152,7 @@ function Home() {
           <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white duration-500">
             <div className="h-96">
               <img
-                className="h-full mx-auto"
+                className="h-full mx-auto md:h-4/5"
                 src="./react_dev.png"
                 alt="react dev"
               />
