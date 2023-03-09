@@ -41,7 +41,7 @@ function Home() {
               </div> */}
 
               <img
-                className="w-3/4 mx-auto object-center;"
+                className="w-3/4 md:w-11/12 mx-auto object-center;"
                 src="./Developer.svg"
                 alt="dev svg"
               />
