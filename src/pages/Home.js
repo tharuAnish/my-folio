@@ -150,7 +150,7 @@ function Home() {
             </h2>
           </div>
           <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-16 rounded-lg hover:bg-gray-700 hover:text-white duration-500">
-            <div className="h-96">
+            <div className="h-4/5">
               <img
                 className="h-full mx-auto md:h-4/5"
                 src="./react_dev.png"
