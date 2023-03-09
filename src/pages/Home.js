@@ -47,7 +47,7 @@ function Home() {
               />
             </div>
 
-            <div className="mx-auto md:-mt-14">
+            <div className="mx-auto md:-mt-32">
               <div>
                 <div className="font-bold text-white md:px-2 md:mb-5 border-l-4 flex-col ">
                   <h1 className="text-6xl md:text-3xl m-2">

@@ -42,7 +42,7 @@ function Header() {
               <img
                 src="./TA-logo.png"
                 alt="logo"
-                className="w-12 ml-3 opacity-90"
+                className="w-12 ml-3 md:ml-1 opacity-90"
               />
             </a>
           </div>
@@ -76,13 +76,13 @@ function Header() {
         </div>
 
         <div
-          className={`mt-5 md:flex items-start justify-start flex-col w-full lg:hidden xl:hidden 2xl:hidden ${showMenu}`}
+          className={`mt-5 md:flex  w-24  flex-col w-full lg:hidden xl:hidden 2xl:hidden ${showMenu}`}
         >
           {menuItems.map((item) => {
             return (
               <li
                 key={item.id}
-                className={`list-none  py-1 ${
+                className={`list-none  py-1 text-center ${
                   item.key == pathName && "bg-white text-black rounded-md px-5"
                 } `}
               >
