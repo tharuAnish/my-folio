@@ -30,11 +30,24 @@ function Header() {
 
   const pathName = window.location.pathname
 
+  // const responsiveStyle = {
+  //   screens: {
+  //     'tablet': '640px',
+  //     // => @media (min-width: 640px) { ... }
+
+  //     'laptop': '1024px',
+  //     // => @media (min-width: 1024px) { ... }
+
+  //     'desktop': '1280px',
+  //     // => @media (min-width: 1280px) { ... }
+  //   }
+  // }
+
   return (
     <div className="text-white font-mont fixed top-0 left-0 right-0 z-50">
       <div
         className={`flex bg-theme justify-between items-center p-2 shadow-lg 
-            ${showMenu == "" && "md:flex-col"} `}
+            ${showMenu === "" && "md:flex-col"} `}
       >
         <div className="flex justify-between items-center w-full">
           <div>
@@ -49,13 +62,14 @@ function Header() {
 
           <FaBars
             onClick={() => {
-              if (showMenu == "md:hidden") {
+              if (showMenu === "md:hidden") {
                 setShowMenu("")
               } else {
                 setShowMenu("md:hidden")
               }
             }}
-            className="lg:hidden xl:hidden 2xl:hidden md:flex cursor-pointer mr-4 text-3xl"
+            className="lg:hidden xl:hidden 2xl:hidden  md:flex cursor-pointer mr-4 text-3xl 3xl:hidden"
+            // style={responsiveStyle}
           />
         </div>
 
@@ -65,7 +79,7 @@ function Header() {
               <li
                 key={item.id}
                 className={`list-none mx-5 p-1 hover:text-secondary ease-in duration-100 ${
-                  item.key == pathName &&
+                  item.key === pathName &&
                   "bg-white  text-black rounded-full px-3 ring-white border-2 border-primary ring-inset-3  ring-2"
                 } `}
               >
@@ -76,14 +90,15 @@ function Header() {
         </div>
 
         <div
-          className={`mt-5 md:flex  w-24  flex-col w-full lg:hidden xl:hidden 2xl:hidden ${showMenu}`}
+          className={`mt-5 md:flex  w-24  flex-col w-full lg:hidden xl:hidden 2xl:hidden 3xl:hidden ${showMenu}`}
+          // style={responsiveStyle}
         >
           {menuItems.map((item) => {
             return (
               <li
                 key={item.id}
                 className={`list-none  py-1 text-center ${
-                  item.key == pathName && "bg-white text-black rounded-md px-5"
+                  item.key === pathName && "bg-white text-black rounded-md px-5"
                 } `}
               >
                 <Link to={`${item.key}`}>{item.title}</Link>
