@@ -30,19 +30,6 @@ function Header() {
 
   const pathName = window.location.pathname
 
-  // const responsiveStyle = {
-  //   screens: {
-  //     'tablet': '640px',
-  //     // => @media (min-width: 640px) { ... }
-
-  //     'laptop': '1024px',
-  //     // => @media (min-width: 1024px) { ... }
-
-  //     'desktop': '1280px',
-  //     // => @media (min-width: 1280px) { ... }
-  //   }
-  // }
-
   return (
     <div className="text-white font-mont fixed top-0 left-0 right-0 z-50">
       <div
@@ -69,7 +56,6 @@ function Header() {
               }
             }}
             className="lg:hidden xl:hidden 2xl:hidden  md:flex cursor-pointer mr-4 text-3xl 3xl:hidden"
-            // style={responsiveStyle}
           />
         </div>
 
@@ -91,7 +77,6 @@ function Header() {
 
         <div
           className={`mt-5 md:flex  w-24  flex-col w-full lg:hidden xl:hidden 2xl:hidden 3xl:hidden ${showMenu}`}
-          // style={responsiveStyle}
         >
           {menuItems.map((item) => {
             return (
